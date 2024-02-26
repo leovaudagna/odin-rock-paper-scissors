@@ -60,7 +60,7 @@ function restartGame() {
 
 //SCORE
 function score(text) {
-  if (text == "YOU WON") {
+  if (text == "YOU WON!") {
     you += 1;
   } else if (text == "YOU LOSE") {
     cpu += 1;
