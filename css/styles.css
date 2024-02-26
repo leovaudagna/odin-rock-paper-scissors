@@ -22,9 +22,14 @@ body {
     text-align: center;
 }
 
-.buttons {
+#buttons {
     text-align: center;
     margin-bottom: 40px;
+    visibility: visible;
+}
+
+#restart-button {
+    display:none;
 }
 
 button {
