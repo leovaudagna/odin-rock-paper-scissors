@@ -1,13 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="js/script.js"></script>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    
+
+    <div id="container">
+        <div>
+            <h1>ROCK PAPER SCISSORS</h1>
+
+            <div class="buttons">
+                <button id="rock-button">ROCK</button>
+                <button id="paper-button">PAPER</button>
+                <button id="scissors-button">SCISSORS</button>
+            </div>
+
+
+            <div class="result">
+                <h4>Your choice: <span id="yourChoice"></span></h4>
+                <h4>CPU choice: <span id="cpuChoice"></span></h4>
+                <h2>Result: <span id="result"></span></h2>
+            </div>
+        </div>
+    </div>
+
+    <div id="score">
+        <h3 id="final-score">FINAL SCORE</h3>
+        <div id="score-board">
+            <div>
+                <h5>YOU</h5>
+                <h4 id="your-score"></h4>
+            </div>
+            <div>
+                <h5>CPU</h5>
+                <h4 id="cpu-score"></h4>
+            </div>
+        </div>
+    </div>
+
+
+
+
 </body>
+<script src="js/script.js"></script>
+
 </html>
